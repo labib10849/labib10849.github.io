@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <title>Portfolio Website</title>
+    </head>
+    <body>
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                </div>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#project" class="nav__link">Project</a></li>
+                        <li class="nav__item"><a href="#languages" class="nav__link">Languages</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+        <main class="l-main">
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi, I am <br><span class="home__title-color">Rakibul Hoda Labib</span><br> Web Designer</h1>
+                </div>
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/rakibul-hoda-labib-05314523a/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/labib10849" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                    <a href="https://www.facebook.com/rakibul.labib.5" class="home__social-icon"><i class='bx bxl-facebook' ></i></a> 
+                </div>
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" href="personalimage/my img.jpeg">
+                        </g>
+                    </svg>
+                </div>
+            </section>
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="personalimage/my image.png" alt="">
+                    </div>
+                    <div>
+                        <h2 class="about__subtitle">Welcome</h2>
+                        <p class="about__text">This is my portfolio website. You can know some information about me from this website. Thanks for your patience. Have a nice day.</p>           
+                    </div>                                   
+                </div>
+            </section>
+            <section class="education section " id="education">
+                <h2 class="section-title">Education</h2>
+                <div class="education__container bd-grid">
+                    <br>
+<h1 style="color: blue;text-align: center;" > SSC</h1>
+<p>School:B.A.F. Shaheen College Kurmitola</p>
+<p>Board:Dhaka</p>
+<p>Group:Science</p>
+<p>Year:2018</p>
+<p>Gpa:5.00</p>  <br>
+<div class="education__img">
+    <img src="personalimage/BAFSK.jpg" alt=""height="500" width="500">
+</div>
+<br>
+<h1 style="color: blue;text-align: center;" > HSC</h1>
+<p>School:B.A.F. Shaheen College Kurmitola</p>
+<p>Board:Dhaka</p>
+<p>Group:Science</p>
+<p>Year:2020</p>
+<p>Gpa:5.00</p> <br>
+ <div class="education__img">
+    <img src="personalimage/BAFSK.jpg" alt=""height="500" width="500" >
+</div>
+<br>
+<h1 style="color: blue;text-align: center;" > BSc Engineering</h1>
+<p>Bangladesh University of Professionals</p>
+<p>Department of ICT</p>
+<p>Subject:ICE</p>
+<p>Year: 2021-Ongoing</p>
+<p>CGPA:3.42</p><br>
+  <div class="education__img">
+    <img src="personalimage/BUP.png" alt="" height="500" width="500">
+</div>                                   
+ </div>
+ <section class="skills section" id="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills__container bd-grid">
+        <div class="skills__content">
+            <h2 class="skills__subtitle">Software Skills</h2>
+            <ul class="skills__list">
+                <li class="skills__item">Microsoft PowerPoint</li>
+                <li class="skills__item">Microsoft Word</li>
+                <li class="skills__item">Microsoft Excel</li>
+            </ul>
+        </div>
+        <div class="skills__content">
+            <h2 class="skills__subtitle">Programming Skills</h2>
+            <ul class="skills__list">
+                <li class="skills__item">JavaScript</li>
+                <li class="skills__item">Java</li>
+                <li class="skills__item">C++</li>
+                <li class="skills__item">C</li>
+                <li class="skills__item">Python</li>
+                <li class="skills__item">HTML</li>
+                <li class="skills__item">CSS</li>
+                <li class="skills__item">PHP</li>
+                <li class="skills__item">Prolog</li>
+                <li class="skills__item">CNN</li>
+                <li class="skills__item">TensorFlow</li>
+                <li class="skills__item">Bootstrap</li>
+            </ul>
+        </div>
+        <div class="skills__content">
+            <h2 class="skills__subtitle">Database Skills</h2>
+            <ul class="skills__list">
+                <li class="skills__item">MySQL</li>
+                <li class="skills__item">XAMPP</li>
+            </ul>
+        </div>
+        <div class="skills__content">
+            <h2 class="skills__subtitle">Soft Skills</h2>
+            <ul class="skills__list">
+                <li class="skills__item">Leadership</li>
+                <li class="skills__item">Management</li>
+                <li class="skills__item">Adaptability</li>
+                <li class="skills__item">Teamwork</li>
+            </ul>
+        </div>
+        <div class="skills__content">
+            <h2 class="skills__subtitle">Other Skills</h2>
+            <ul class="skills__list">
+                <li class="skills__item">Car Driving</li>
+                <li class="skills__item">Content Writing</li>
+            </ul>
+        </div>
+    </div>
+</section>
+            <section class="project section" id="project">
+                <h2 class="section-title">Projects</h2>
+                <div class="project__container bd-grid">
+                    <ul>
+                        <li>
+                            Portfolio (HTML, CSS, JS)
+                            <br>
+                            <a href="https://github.com/labib10849/Portfolio">Link</a>
+                        </li>
+                        <li>
+                            Food Restaurant Website (HTML, CSS, JS, PHP, BOOTSTRAP, MySQL, XAMPP)
+                            <br>
+                            <a href="https://github.com/labib10849/Food-Resturant-Website">Link</a>
+                        </li>
+                        <li>
+                            Money Scanner Android App using AI
+                            <br>
+                            <a href="https://github.com/labib10849/Money-Scanner-Android-App-using-AI">Link</a>
+                        </li>
+                        <li>
+                            Pizza Shop POS
+                            <br>
+                            <a href="https://github.com/labib10849/Pizza-Shop-POS">Link</a>
+                        </li>
+                        <li>
+                            Inventory Management System
+                            <br>
+                            <a href="https://github.com/labib10849/Inventory-Management-System">Link</a>
+                        </li>
+                        <li>
+                            Super Shop POS
+                            <br>
+                            <a href="https://github.com/labib10849/Super-Shop-POS">Link</a>
+                        </li>
+                        <li>
+                            Hotel Management System
+                            <br>
+                            <a href="https://github.com/labib10849/Hotel-Management-System">Link</a>
+                        </li>
+                        <li>
+                            Calendar
+                            <br>
+                            <a href="https://github.com/labib10849/Calender">Link</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="languages section" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <div class="languages__container bd-grid">
+                    <div>
+                        <h2 class="languages__subtitle">Languages I Speak</h2><br>
+                        <p class="languages__text">Here are the languages I am proficient in:</p><br>
+                        <div class="languages__data">
+                            <div class="languages__names">
+                                <i class='bx bx-world languages__icon'></i>
+                                <span class="languages__name">Bangla</span>
+                            </div>
+                            <div class="languages__level">
+                                <span>Native</span>
+                            </div>
+                        </div><br>
+                        <div class="languages__data">
+                            <div class="languages__names">
+                                <i class='bx bx-world languages__icon'></i>
+                                <span class="languages__name">English</span>
+                            </div>
+                            <div class="languages__level">
+                                <span>Fluent</span>
+                            </div>
+                        </div><br>
+                        <div class="languages__data">
+                            <div class="languages__names">
+                                <i class='bx bx-world languages__icon'></i>
+                                <span class="languages__name">German</span>
+                            </div>
+                            <div class="languages__level">
+                                <span>A1 Level</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="assets/img/languages.jpg" alt="" class="languages__img">
+                    </div>
+                </div>
+            </section>
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+                <div class="contact__container bd-grid">
+                    <div class="contact__info">
+                        <div class="contact__data">
+                            <i class='bx bx-phone contact__icon'></i>
+                            <span class="contact__text">Phone: +8801933060405</span>
+                        </div><br>
+                        <div class="contact__data">
+                            <i class='bx bx-envelope contact__icon'></i>
+                            <span class="contact__text">Email: labib10849@gmail.com</span>
+                        </div><br>
+                        <div class="contact__data">
+                            <i class='bx bx-map contact__icon'></i>
+                            <span class="contact__text">Address: 55/15, North Manikdi, Dhaka Cantt, Dhaka-1206</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <p class="footer__title">My social media links</p>
+            <div class="footer__social">
+                <a href="https://www.facebook.com/rakibul.labib.5" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://github.com/labib10849" class="footer__icon"><i class='bx bxl-github' ></i></a>
+                <a href="https://www.linkedin.com/in/rakibul-hoda-labib-05314523a/" class="footer__icon"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+            </div>
+            <p class="footer__copy">&#169; Rakibul Hoda Labib. All rigths reserved</p>
+        </footer>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="script.js"></script>
+    </body>
+</html>         
